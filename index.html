@@ -1,137 +1,58 @@
 <!-- index placeholder, please replace with real content -->
-<!doctype html>
-<html lang="vi">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Nguyễn Minh Tâm — Data Analyst</title>
-  <link rel="stylesheet" href="styles.css">
-  <meta name="description" content="Portfolio của Nguyễn Minh Tâm - Data Analyst. Python, SQL, Power BI, dự án phân tích thị trường ô tô và phân tích tỷ lệ đột quỵ.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects – Nguyễn Minh Tâm</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <header class="site-header">
-    <div class="wrap">
-      <div class="intro">
-        <h1>Nguyễn Minh Tâm</h1>
-        <p class="role">Data Analyst · Python • SQL • Power BI</p>
-        <div class="links">
-          <a href="resume.pdf" class="btn">Resume (PDF)</a>
-          <a href="https://github.com/MinhTamNguyen" class="btn outline" target="_blank" rel="noopener">GitHub</a>
-          <a href="http://www.linkedin.com/in/minh-t%C3%A2m-nguy%E1%BB%85n-424831392" class="btn outline" target="_blank" rel="noopener">LinkedIn</a>
-        </div>
-      </div>
-      <div class="hero-card">
-        <!-- placeholder image; đổi thành ảnh chân dung hoặc thiết kế từ Canva -->
-        <img src="images/profile-placeholder.jpg" alt="Nguyễn Minh Tâm">
-      </div>
-    </div>
-  </header>
 
-  <main class="wrap">
-    <section id="about" class="card">
-      <h2>About Me</h2>
-      <p>
-        Building a strong foundation in Python, SQL, and Power BI, I focus on data cleaning, visualization, and
-        analytical techniques to deliver insights for business decisions. Tôi có kinh nghiệm phân tích dữ liệu, xây dựng dashboard và mô hình dự báo.
-      </p>
-    </section>
+<body class="dark">
+    <header class="navbar">
+        <div class="logo">NguyenMinhTam</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-    <section id="skills" class="card two-col">
-      <div>
-        <h3>Kỹ năng</h3>
-        <ul class="skills-list">
-          <li>Python (pandas, numpy, scikit-learn)</li>
-          <li>SQL (MySQL)</li>
-          <li>Power BI (DAX, KPI, Dashboard)</li>
-          <li>Machine Learning: K-Means, RandomForest, XGBoost</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Tools & Platforms</h3>
-        <ul class="skills-list">
-          <li>Google Colab</li>
-          <li>Excel, matplotlib, seaborn</li>
-          <li>Version control: Git/GitHub</li>
-        </ul>
-      </div>
-    </section>
+    <section class="section">
+        <h1>Projects</h1>
 
-    <section id="projects" class="card">
-      <h2>Projects nổi bật</h2>
+        <div class="project-card">
+            <img src="assets/auto.jpg" alt="Automobile project">
+            <div>
+                <h2>Automotive Market Revenue Analysis (2020–2022)</h2>
+                <p>
+                    Cleaned a 4,700-row dataset, built Power BI dashboards, applied K-Means segmentation,
+                    Holt–Winters forecasting, and feature importance using RandomForest/XGBoost.
+                    Key insights: revenue drop in 2020 (COVID), slight recovery 2021, shift toward SUV/MPV in 2022.
+                </p>
+                <a class="btn small" href="https://github.com/NguyenMinhTam/automobile-analysis" target="_blank">GitHub Repo</a>
+                <a class="btn-outline small" href="https://www.canva.com/design/DAGz5sIJqPU/S9aoc-saOJuSfeLllpCELg/view" target="_blank">Report</a>
+            </div>
+        </div>
 
-      <article class="project">
-        <div class="project-meta">
-          <h3>Analysis and Revenue Prediction of the Automotive Market in Vietnam (2020–2022)</h3>
-          <p class="muted">Dec 2025 · Python, SQL, Power BI, scikit-learn, statsmodels, xgboost</p>
+        <div class="project-card">
+            <img src="assets/stroke.jpg" alt="Stroke project">
+            <div>
+                <h2>Stroke Incidence Analysis</h2>
+                <p>
+                    Extracted multi-source healthcare data, identified high-risk groups, and built an interactive Power BI dashboard.
+                    Applied segmentation, trend analysis, and feature engineering.
+                </p>
+                <a class="btn small" href="https://github.com/NguyenMinhTam/stroke-analysis" target="_blank">GitHub Repo</a>
+                <a class="btn-outline small" href="https://www.canva.com/design/DAG5nxLqq8I/Lq2cgsDThdGGoWKEXHZznw/view" target="_blank">Report</a>
+            </div>
         </div>
-        <p>
-          Mô tả ngắn: Làm sạch và chuẩn hoá dữ liệu (4700 → 4380 records), xây dựng dashboard Power BI, phân khúc thị trường bằng K-Means,
-          dự báo doanh thu bằng Holt-Winters và phân tích feature importance bằng RandomForest & XGBoost.
-        </p>
-        <p class="project-highlights">
-          Key insights: doanh thu giảm mạnh 2020 (COVID), phục hồi nhẹ 2021, chuyển dịch nhu cầu sang SUV/MPV năm 2022. Đề xuất: tối ưu marketing, inventory cho SUV/MPV.
-        </p>
-        <div class="project-links">
-          <a class="btn small" href="https://github.com/MinhTamNguyen/automobile-analysis" target="_blank" rel="noopener">Code</a>
-          <a class="btn small outline" href="https://www.canva.com/design/DAGz5sIJqPU/S9aoc-saOJuSfeLllpCELg/view" target="_blank" rel="noopener">Design / Report</a>
-        </div>
-      </article>
-
-      <article class="project">
-        <div class="project-meta">
-          <h3>Analysis of Stroke Incidence Rates</h3>
-          <p class="muted">Jul 2025 · Python, SQL, Power BI</p>
-        </div>
-        <p>
-          Mục tiêu: Xác định nhóm nguy cơ cao và các yếu tố ảnh hưởng đến tỷ lệ đột quỵ. Trích xuất, sạch dữ liệu, phân tích xu hướng, xây dựng dashboard Power BI có filters và KPI.
-        </p>
-        <div class="project-links">
-          <a class="btn small" href="https://github.com/MinhTamNguyen/stroke-analysis" target="_blank" rel="noopener">Code</a>
-          <a class="btn small outline" href="https://www.canva.com/design/DAG5nxLqq8I/Lq2cgsDThdGGoWKEXHZznw/view" target="_blank" rel="noopener">Design / Report</a>
-        </div>
-      </article>
 
     </section>
 
-    <section id="experience" class="card">
-      <h2>Experience</h2>
-
-      <div class="job">
-        <h3>Construction Engineer — Estimation</h3>
-        <p class="muted">Kien Tao Investment & Consulting Co., Ltd · Apr 2021 – Present</p>
-        <ul>
-          <li>Collect & validate technical drawings, thực hiện quantity take-offs cho timber-structure projects (U.S. standards).</li>
-          <li>Estimate vật liệu, ngân sách và hỗ trợ lập kế hoạch dự án.</li>
-        </ul>
-      </div>
-
-      <div class="job">
-        <h3>Construction Engineer</h3>
-        <p class="muted">STRUCTERRE Co., Ltd · Apr 2018 – Jul 2020</p>
-        <ul>
-          <li>Thiết kế & chỉnh sửa bản vẽ cho timber structures (Australia), báo cáo tiến độ, xử lý vấn đề thi công.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="education" class="card two-col">
-      <div>
-        <h3>Education</h3>
-        <p><strong>Data Analyst</strong> · MindX Technology School (Jan 2025 – Dec 2025)</p>
-        <p><strong>Bachelor of Engineering — Civil Engineering</strong> · HCM University of Technology (Sep 2013 – Aug 2018)</p>
-      </div>
-      <div>
-        <h3>Contact</h3>
-        <p>Email: <a href="mailto:tamnguyenminh.cons@gmail.com">tamnguyenminh.cons@gmail.com</a></p>
-        <p>Phone: (+84) 335 601 309</p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>© 2025 Nguyễn Minh Tâm — Data Analyst · Built with ❤️</p>
-    </div>
-  </footer>
+    <footer>
+        © 2025 NguyenMinhTam – Data Analyst
+    </footer>
 </body>
 </html>
+
