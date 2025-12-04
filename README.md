@@ -1,4 +1,3 @@
-# Portfolio Placeholder
 # 🌐 Portfolio – Nguyễn Minh Tâm (Data Analyst)
 
 Welcome to my personal portfolio showcasing my Data Analyst projects, skills, and professional experience.
